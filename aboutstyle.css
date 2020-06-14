@@ -1,0 +1,13 @@
+.sheet {
+  background-color: #ffffff;
+  position: relative;
+  text-align: center;
+  height: 600px;
+  width: 600px;
+  border: 50px;
+}
+.text {
+  font-family: Roboto, sans-sarif;
+  text-align: center;
+  margin-left: 50px;
+}

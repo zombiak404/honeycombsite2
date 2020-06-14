@@ -5,6 +5,7 @@ div.scrollmenu {
   background-color: #ffffff;
   overflow: auto;
   white-space: nowrap;
+  transition: 0.6s ease;
 }
 
 div.scrollmenu a {
@@ -16,72 +17,47 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #ffcc00;
+  background-color: #fada5e;
 }
-/* Slideshow STYLES */
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
+/* GALLERY STYLES */
+.button:hover {
+  opacity: 70%;
 }
 
-/* GALLERY STYLES */
+.button {
+  background: url(https://i.imgur.com/QaXtWn6.jpg) no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  padding: 80px 80px;
+  transition: 0.5s;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 #gallery {
   text-align: center;
-  margin-top: 50px;
 }
-.column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
-}
-.column1 img {
+.column1 {
   vertical-align: middle;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  width: 240px;
-  height: 240px;
   position: relative;
   display: inline-block;
+  top: -5px;
+  left: 380px;
 }
-.column2 img {
+.column2 {
   vertical-align: middle;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  width: 240px;
-  height: 240px;
   position: relative;
   display: inline-block;
-  top: -55px;
-  right: 1px;
+  top: 150px;
+  right: 270px;
 }
-.column3 img {
+.column3 {
   vertical-align: middle;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  width: 240px;
-  height: 240px;
   position: relative;
   display: inline-block;
-  top: -110px;
-}
-.column4 img {
-  vertical-align: middle;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  width: 240px;
-  height: 240px;
-  position: relative;
-  display: inline-block;
-  right: 1px;
-  top: -165px;
-}
-.column5 img {
-  vertical-align: middle;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  width: 240px;
-  height: 240px;
-  position: relative;
-  display: inline-block;
-  right: 1px;
-  top: -220px;
+  top: 280px;
+  right: 5px;
 }
 /* Style the buttons */
 .prev,
@@ -109,7 +85,8 @@ div.scrollmenu a:hover {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #ffffff;
+  opacity: 75%;
 }
 
 /* Caption text */
@@ -130,23 +107,6 @@ div.scrollmenu a:hover {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
 }
 
 /* Fading animation */
@@ -191,4 +151,5 @@ div.scrollmenu a:hover {
   font-size: 32px;
   font-weight: 300;
   margin-bottom: 50px;
+  margin-top: 420px;
 }
