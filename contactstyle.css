@@ -19,25 +19,21 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #ff7400;
 }
-/* textbox */
-.textbox {
+/* contactbox */
+.contactbox {
   border: #000 5px dashed;
-  height: 800px;
-  width: 50%;
-  position: absolute;
+  height: 80px;
+  width: 50px;
   top: 700px;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  right: 60%;
 }
-.text {
-  padding-top: 50px;
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-right: 50px;
-  text-align: center justify;
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
+/* form */
+.formbox {
+  border: #000 5px dashed;
+  height: 180px;
+  width: 250px;
+  top: 700px;
+  left: 560px;
 }
 /* copyright */
 #copyright {

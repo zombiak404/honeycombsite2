@@ -2,7 +2,7 @@
 div.scrollmenu {
   padding-top: 60px;
   margin-bottom: 10px;
-  background-color: #ebdc91;
+  background-color: #ffee96;
   overflow: auto;
   white-space: nowrap;
   transition: 0.6s ease;
@@ -17,7 +17,7 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #fada5e;
+  background-color: #ff7400;
 }
 /* GALLERY STYLES */
 .button:hover {
@@ -146,7 +146,7 @@ div.scrollmenu a:hover {
 #copyright {
   position: relative;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 32px;
   font-weight: 300;
   margin-bottom: 50px;
