@@ -24,11 +24,13 @@ div.scrollmenu a:hover {
   height: 280px;
   width: 350px;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-80%, -50%);
+  font-family: open sans-serif;
+  font-size: 18px;
 }
 /* contactbox */
 .contactbox {
@@ -36,7 +38,7 @@ div.scrollmenu a:hover {
   height: 280px;
   width: 350px;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
