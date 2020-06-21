@@ -23,14 +23,25 @@ div.scrollmenu a:hover {
 .button:hover {
   opacity: 70%;
 }
-.button {
+.button1 {
   background: url(https://i.imgur.com/qTBxlua.png) no-repeat;
   cursor: pointer;
-  padding: 150px 150px;
+  padding: 120px 120px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.button2 {
+  background: url(https://i.imgur.com/qTBxlua.png) no-repeat;
+  cursor: pointer;
+  padding: 120px 120px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.button3 {
+  background: url(https://i.imgur.com/qTBxlua.png) no-repeat;
+  cursor: pointer;
+  padding: 120px 120px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .column1 {
-  top: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
