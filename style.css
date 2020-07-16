@@ -30,19 +30,25 @@ div.scrollmenu a:hover {
   opacity: 70%;
 }
 .button1 {
-  background: url(https://i.imgur.com/qTBxlua.png) no-repeat;
+  background: url(https://lh3.googleusercontent.com/Na6tpXBhckELpKiT8y0rTE6iJeytOHszx3yBdPbVujrjD0uPrZlNq6CgdagSORdhaQ)
+    no-repeat;
+  background-size: 260px;
   cursor: pointer;
   padding: 120px 120px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .button2 {
-  background: url(https://i.imgur.com/qTBxlua.png) no-repeat;
+  background: url(https://www.kindpng.com/picc/m/200-2004156_xbox-clipart-game-icon-hd-png-download.png)
+    no-repeat;
+  background-size: 250px;
   cursor: pointer;
   padding: 120px 120px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .button3 {
-  background: url(https://i.imgur.com/qTBxlua.png) no-repeat;
+  background: url(https://i1.wp.com/s3.eu-west-2.amazonaws.com/fifteen-uploads/uploads/2018/12/wordpress-logo-big-580x580.jpg?ssl=1)
+    no-repeat;
+  background-size: 240px;
   cursor: pointer;
   padding: 120px 120px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -78,4 +84,28 @@ div.scrollmenu a:hover {
   font-size: 18px;
   margin-bottom: 50px;
   top: 200px;
+}
+
+/* balloons */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
