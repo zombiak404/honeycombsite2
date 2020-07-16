@@ -40,7 +40,7 @@ div.scrollmenu a:hover {
 .button2 {
   background: url(https://www.kindpng.com/picc/m/200-2004156_xbox-clipart-game-icon-hd-png-download.png)
     no-repeat;
-  background-size: 250px;
+  background-size: 270px;
   cursor: pointer;
   padding: 120px 120px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -95,8 +95,9 @@ div.scrollmenu a:hover {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: #ffff;
+  color: #000;
+  font-family: absender, sans-serif;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
