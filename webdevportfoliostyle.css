@@ -105,19 +105,3 @@ div.scrollmenu a:hover {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-/* textbox */
-.textbox {
-  border: #000 5px dashed;
-  height: 200px;
-  width: 50%;
-  position: absolute;
-  top: 700px;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
-}
-.text {
-  text-align: center justify;
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-}

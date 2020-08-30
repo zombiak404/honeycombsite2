@@ -38,7 +38,7 @@ div.scrollmenu a:hover {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .button2 {
-  background: url(https://i1.wp.com/s3.eu-west-2.amazonaws.com/fifteen-uploads/uploads/2018/12/wordpress-logo-big-580x580.jpg?ssl=1)
+  background: url(https://pbs.twimg.com/tweet_video_thumb/Ea0whn2XQAIn3oV.jpg)
     no-repeat;
   background-size: 260px;
   cursor: pointer;
@@ -46,8 +46,7 @@ div.scrollmenu a:hover {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .button3 {
-  background: url(https://www.kindpng.com/picc/m/200-2004156_xbox-clipart-game-icon-hd-png-download.png)
-    no-repeat;
+  background: url(https://jumpseller.com/images/learn/create-a-blog/blog.jpg);
   background-size: 270px;
   cursor: pointer;
   padding: 120px 120px;
@@ -101,6 +100,9 @@ div.scrollmenu a:hover {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
 
   /* Position the tooltip */
   position: absolute;
