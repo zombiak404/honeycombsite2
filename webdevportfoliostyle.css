@@ -30,14 +30,13 @@ div.scrollmenu a:hover {
   opacity: 70%;
 }
 .button1 {
-  background: url(https://i.imgur.com/j8evGBA.jpg) no-repeat;
+  background: url(https://i.imgur.com/5aWv5AU.png) no-repeat;
   background-size: 240px;
   cursor: pointer;
   padding: 120px 120px;
 }
 .button2 {
-  background: url(https://www.kindpng.com/picc/m/200-2004156_xbox-clipart-game-icon-hd-png-download.png)
-    no-repeat;
+  background: url(https://i.imgur.com/al9UiCO.png) no-repeat;
   background-size: 240px;
   cursor: pointer;
   padding: 120px 120px;
@@ -105,4 +104,20 @@ div.scrollmenu a:hover {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+/* textbox */
+.textbox {
+  border: #000 5px dashed;
+  height: 200px;
+  width: 50%;
+  position: absolute;
+  top: 700px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+.text {
+  text-align: center justify;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
