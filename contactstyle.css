@@ -49,10 +49,10 @@ h1 {
 }
 /* copyright */
 #copyright {
-  position: relative;
   text-align: center;
-  font-family: absender, sans-serif;
-  font-size: 18px;
+  font-family: Open Sans, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
   margin-bottom: 50px;
-  top: 200px;
+  margin-top: 820px;
 }
