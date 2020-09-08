@@ -1,0 +1,58 @@
+/* menu STYLES */
+div.scrollmenu {
+  padding-top: 60px;
+  margin-bottom: 10px;
+  background-color: #c8bff5;
+  overflow: auto;
+  white-space: nowrap;
+  transition: 0.6s ease;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #9f5fed;
+}
+/* form */
+.formbox {
+  height: 280px;
+  width: 350px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-80%, -50%);
+  font-family: open sans-serif;
+  font-size: 18px;
+}
+/* contactbox */
+.contactbox {
+  height: 280px;
+  width: 350px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(10%, -50%);
+}
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+}
+/* copyright */
+#copyright {
+  position: relative;
+  text-align: center;
+  font-family: absender, sans-serif;
+  font-size: 18px;
+  margin-bottom: 50px;
+  top: 200px;
+}
