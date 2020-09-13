@@ -112,3 +112,19 @@ div.scrollmenu a:hover {
   font-family: Roboto, sans-serif;
   font-size: 18px;
 }
+.text {
+  font-family: absender, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  position: relative;
+  margin-left: 22%;
+  padding: 15px;
+}
+.tex2 {
+  font-family: absender, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  position: relative;
+  margin-left: 22%;
+  top: 120px;
+}
